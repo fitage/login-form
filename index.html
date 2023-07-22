@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign-Up screen</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+<form action="" id="signUpForm">
+
+
+<div class="labelInputBox">
+<label for="fullnameField">Enter Full Name</label>
+<input type="text" name="fullname" id="fullnameField" placeholder="Enter Full Name">
+<i class="fa-solid fa-circle-exclamation" id="nameErrorIcon"></i>
+<i class="fa-sharp fa-solid fa-circle-check" id="nameSuccessIcon"></i>
+<p id="nameErrorMessage"></p>
+</div>
+
+
+<div class="labelInputBox">
+<label for="emailField">Enter Email Address</label>
+<input type="email" name="email" id="emailField" placeholder="Enter Email Address">
+<i class="fa-solid fa-circle-exclamation" id="emailErrorIcon"></i>
+<i class="fa-sharp fa-solid fa-circle-check" id="emailSuccessIcon"></i>
+<p id="emailErrorMessage"></p>
+
+</div>
+
+
+<div class="labelInputBox">
+<label for="passwordField">Enter password</label>
+<input type="password" name="password" id="passwordField" placeholder="Enter password" class="passwordField">
+<i class="fa-solid fa-circle-exclamation" id="passwordErrorIcon"></i>
+<i class="fa-sharp fa-solid fa-circle-check" id="passwordSuccessIcon"></i>
+<p id="passwordErrorMessage"></p>
+</div>
+
+
+<button id="button" type="submit">Create Account</button>
+
+
+</form>
+
+
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    form{
+    width: 35%;
+    height: auto;
+    background-color: #f8f8f8;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    }
+    
+    
+    .labelInputBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    position: relative;
+    }
+    
+    
+    input{
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.5rem;
+    }
+    
+    
+    .fa-circle-exclamation{
+    position: absolute;
+    left: 32rem;
+    top: 2.3rem;
+    visibility: hidden;
+    }
+    
+    
+    .fa-circle-check{
+    position: absolute;
+    left: 32rem;
+    top: 2.3rem;
+    visibility: hidden;
+    }
+    
+    
+    p{
+    color: red;
+    font-size: 0.7rem;
+    font-style: italic;
+    }
+    
+    
+    button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    }
+    
